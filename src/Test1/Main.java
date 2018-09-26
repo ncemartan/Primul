@@ -6,5 +6,14 @@ public class Main {
 	String surname = "Cemirtan.";
 	String message = "My name is " + name + " " + surname;
     System.out.println(message);
+    
+    double price = 2.5;
+    double tax = 3.2;
+    int quantity = 4;
+    double total = price * tax * quantity;
+   
+    System.out.println("Total cost with tax is: " + total);
+    
+    
 }
 }
