@@ -11,8 +11,8 @@ public class Main {
     double tax = 3.2;
     int quantity = 4;
     double total = price * tax * quantity;
-   
-    System.out.println("Total cost with tax is: " + total);
+   String message2 = "Total cost with tax is: " + total;
+    System.out.println(message2);
     
     
 }
