@@ -6,11 +6,13 @@ public class ConvertTempFarhToCelsius {
 
 	public static void main(String[] args) {
 		
+		
 		Scanner convertC = new Scanner(System.in);
 		System.out.println("Enter the Celsius temperature for convertion:");
 		int c = convertC.nextInt();
 		int f = (9*c + (32*5))/5;
 		System.out.println( c + " degrees Celsius will be " + f + " degrees Fahrenheit." );
+		
 		Scanner convertF = new Scanner(System.in);
 		System.out.println("Now, enter the Fahrenheit temperature, please:");
 		int fhr = convertF.nextInt();

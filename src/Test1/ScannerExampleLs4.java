@@ -10,6 +10,9 @@ public class ScannerExampleLs4 {
 	    String name2 = sc.nextLine();
 	    System.out.println("String has been entered.\n");
 	    System.out.println("String number is " + name2);
+	    
+	    
+	    
 	    System.out.println("Enter your age:");
 	    int age = sc.nextInt();
 	    System.out.println("Your age has been entered.");
