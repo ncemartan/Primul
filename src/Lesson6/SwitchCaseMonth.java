@@ -35,7 +35,7 @@ public class SwitchCaseMonth {
 		case 12 : System.out.println("December");
 		
 		default : System.out.println("Error!");
-		break;
+		
 		
 		  
 		}
